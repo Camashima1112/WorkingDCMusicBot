@@ -1,12 +1,7 @@
 const fs = require('fs');
 const discord = require('discord.js');
-
-const axios = require('axios');	
-
 const bot = new discord.Client({disableMentions: 'everyone'});
-
 const client = new discord.Client({ disableMentions: 'everyone' });
-
 const { Player } = require('discord-player');
 
 client.player = new Player(client);
